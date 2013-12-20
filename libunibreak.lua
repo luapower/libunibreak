@@ -38,7 +38,7 @@ utf32_t lb_get_next_char_utf16(const utf16_t *s, size_t len, size_t *ip);
 utf32_t lb_get_next_char_utf32(const utf32_t *s, size_t len, size_t *ip);
 ]]
 
-local C = ffi.load'libunibreak'
+local C = ffi.load'unibreak'
 local M = {C = C}
 
 C.init_linebreak()
