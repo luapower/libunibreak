@@ -1,3 +1,3 @@
-gcc -O3 -s -o ../../bin/unibreak.dll -shared *.c
+gcc -O3 -s -o ../../bin/mingw32/unibreak.dll -shared *.c
 
-cd ../.. && bin/luajit libunibreak_demo.lua
+#cd ../.. && bin/luajit libunibreak_demo.lua
