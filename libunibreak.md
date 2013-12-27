@@ -7,8 +7,8 @@ v1.0 | libunibreak 0.6.21 | LuaJIT 2
 
 ## `local ub = require'libunibreak'`
 
-A ffi binding to [libunibreak], a C library implementing the [unicode line breaking algorithm][tr14] and word
-breaking from [unicode text segmentation][tr29].
+A ffi binding to [libunibreak][libunibreak lib], a C library implementing
+the [unicode line breaking algorithm][tr14] and word breaking from [unicode text segmentation][tr29].
 
 ## Line breaking
 
@@ -54,6 +54,6 @@ Iterate codepoints.
 Get the number of codepoints in string.
 
 
-[libunibreak]: http://vimgadgets.sourceforge.net/libunibreak/
-[tr14]:        http://www.unicode.org/reports/tr14/
-[tr29]:        http://www.unicode.org/reports/tr29/
+[libunibreak lib]: http://vimgadgets.sourceforge.net/libunibreak/
+[tr14]:            http://www.unicode.org/reports/tr14/
+[tr29]:            http://www.unicode.org/reports/tr29/
