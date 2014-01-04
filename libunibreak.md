@@ -1,6 +1,7 @@
 ---
-project: libunibreak
-tagline: libunibreak ffi binding
+project:     libunibreak
+tagline:     libunibreak ffi binding
+category:    Text Processing
 ---
 
 v1.0 | libunibreak 0.6.21 | LuaJIT 2
