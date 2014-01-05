@@ -4,8 +4,6 @@ tagline:     libunibreak ffi binding
 category:    Text Processing
 ---
 
-v1.0 | libunibreak 0.6.21 | LuaJIT 2
-
 ## `local ub = require'libunibreak'`
 
 A ffi binding to [libunibreak][libunibreak lib], a C library implementing
