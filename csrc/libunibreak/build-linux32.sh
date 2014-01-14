@@ -1,3 +1,3 @@
-gcc -O3 -s -o ../../bin/linux32/libunibreak.so -shared *.c
+gcc $CFLAGS *.c -shared -o ../../bin/linux32/libunibreak.so
 
 #cd ../.. && linux/bin/luajit libunibreak_demo.lua
