@@ -1,7 +1,6 @@
 ---
 project:     libunibreak
 tagline:     libunibreak ffi binding
-category:    Text Processing
 ---
 
 ## `local ub = require'libunibreak'`
