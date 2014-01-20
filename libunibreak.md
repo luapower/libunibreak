@@ -1,6 +1,6 @@
 ---
-project:     libunibreak
-tagline:     libunibreak ffi binding
+project: libunibreak
+tagline: unicode line breaking
 ---
 
 ## `local ub = require'libunibreak'`
