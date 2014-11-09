@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc *.c -shared -o ../../bin/linux32/libunibreak.so
+P=linux32 L="-s -static-libgcc" D=libunibreak.so A=libunibreak.a ./build.sh

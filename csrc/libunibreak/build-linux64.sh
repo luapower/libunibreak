@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc -fPIC *.c -shared -o ../../bin/linux64/libunibreak.so
+P=linux64 C=-fPIC L="-s -static-libgcc" D=libunibreak.so A=libunibreak.a ./build.sh

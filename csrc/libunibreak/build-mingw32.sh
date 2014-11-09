@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc *.c -shared -o ../../bin/mingw32/unibreak.dll
+P=mingw32 L="-s -static-libgcc" D=unibreak.dll A=unibreak.a ./build.sh

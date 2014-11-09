@@ -1,1 +1,2 @@
-gcc -arch i386 -O2 *.c -shared -install_name @loader_path/libunibreak.dylib -o ../../bin/osx32/libunibreak.dylib
+P=osx32 C="-arch i386" L="-arch i386 -install_name @loader_path/libunibreak.dylib" \
+	D=libunibreak.dylib A=libunibreak.a ./build.sh
