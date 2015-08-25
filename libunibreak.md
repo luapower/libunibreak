@@ -1,5 +1,4 @@
 ---
-project: libunibreak
 tagline: unicode line breaking
 ---
 
