@@ -12,6 +12,21 @@ from [Unicode text segmentation][tr29].
 
 ### `ub.linebreaks(s,[len],[lang],[out]) -> line_breaks`
 
+`lang` can be one of:
+
+---- -------------
+'de' German
+'en' English
+'es' Spanish
+'fr' French
+'ja' Japanese
+'ko' Korean
+'ru' Russian
+'zh' Chinese
+---- -------------
+
+...with or without the `'-strict'` suffix.
+
 The returned `line_breaks` is a 0-based array of flags, one for each byte
 of the input string:
 
